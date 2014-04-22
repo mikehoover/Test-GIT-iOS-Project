@@ -21,6 +21,7 @@
 		46C3C5051906B7A80093651D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C3C4E71906B7A70093651D /* UIKit.framework */; };
 		46C3C50D1906B7A80093651D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46C3C50B1906B7A80093651D /* InfoPlist.strings */; };
 		46C3C50F1906B7A80093651D /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C3C50E1906B7A80093651D /* Git_TestTests.m */; };
+		46C468FD19072693000A24D0 /* GTTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C468FC19072693000A24D0 /* GTTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		46C3C50A1906B7A80093651D /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		46C3C50C1906B7A80093651D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		46C3C50E1906B7A80093651D /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		46C468FB19072693000A24D0 /* GTTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTTest.h; sourceTree = "<group>"; };
+		46C468FC19072693000A24D0 /* GTTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				46C3C4F51906B7A80093651D /* Main.storyboard */,
 				46C3C4F81906B7A80093651D /* GTViewController.h */,
 				46C3C4F91906B7A80093651D /* GTViewController.m */,
+				46C468FB19072693000A24D0 /* GTTest.h */,
+				46C468FC19072693000A24D0 /* GTTest.m */,
 				46C3C4FB1906B7A80093651D /* Images.xcassets */,
 				46C3C4EA1906B7A70093651D /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				46C3C4F01906B7A70093651D /* main.m in Sources */,
 				46C3C4FA1906B7A80093651D /* GTViewController.m in Sources */,
+				46C468FD19072693000A24D0 /* GTTest.m in Sources */,
 				46C3C4F41906B7A70093651D /* GTAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +463,7 @@
 				46C3C5141906B7A80093651D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46C3C5151906B7A80093651D /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				46C3C5171906B7A80093651D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
