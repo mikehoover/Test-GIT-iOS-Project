@@ -22,6 +22,7 @@
 		46C3C50D1906B7A80093651D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46C3C50B1906B7A80093651D /* InfoPlist.strings */; };
 		46C3C50F1906B7A80093651D /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C3C50E1906B7A80093651D /* Git_TestTests.m */; };
 		46C468FD19072693000A24D0 /* GTTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C468FC19072693000A24D0 /* GTTest.m */; };
+		46C46900190736F6000A24D0 /* GTNewClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C468FF190736F6000A24D0 /* GTNewClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		46C3C50E1906B7A80093651D /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
 		46C468FB19072693000A24D0 /* GTTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTTest.h; sourceTree = "<group>"; };
 		46C468FC19072693000A24D0 /* GTTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTTest.m; sourceTree = "<group>"; };
+		46C468FE190736F6000A24D0 /* GTNewClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTNewClass.h; sourceTree = "<group>"; };
+		46C468FF190736F6000A24D0 /* GTNewClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTNewClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				46C3C4F91906B7A80093651D /* GTViewController.m */,
 				46C468FB19072693000A24D0 /* GTTest.h */,
 				46C468FC19072693000A24D0 /* GTTest.m */,
+				46C468FE190736F6000A24D0 /* GTNewClass.h */,
+				46C468FF190736F6000A24D0 /* GTNewClass.m */,
 				46C3C4FB1906B7A80093651D /* Images.xcassets */,
 				46C3C4EA1906B7A70093651D /* Supporting Files */,
 			);
@@ -258,6 +263,7 @@
 				46C3C4F01906B7A70093651D /* main.m in Sources */,
 				46C3C4FA1906B7A80093651D /* GTViewController.m in Sources */,
 				46C468FD19072693000A24D0 /* GTTest.m in Sources */,
+				46C46900190736F6000A24D0 /* GTNewClass.m in Sources */,
 				46C3C4F41906B7A70093651D /* GTAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
